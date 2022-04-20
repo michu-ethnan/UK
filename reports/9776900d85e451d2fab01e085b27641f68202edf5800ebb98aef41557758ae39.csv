@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Order products logged in-1","Login and Order with courier delivery and paypal payment (click same shipping address checkbox)","ERROR","2022-03-25T12:54:53.479Z[GMT]","0.0","20.12"
+"Order products logged in-1","Login and Order with courier delivery and transfer payment (click same shipping address checkbox)","ERROR","2022-03-25T12:55:13.822Z[GMT]","0.0","17.49"
+"Order products logged in-1","Login and Order with courier delivery and paypal payment","ERROR","2022-03-25T12:55:31.435Z[GMT]","0.0","17.92"
