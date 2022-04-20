@@ -48,7 +48,7 @@ public class QuickSearch {
     @And("he chooses one product from the list")
     public void allen_picks_one_product(){
         theActorInTheSpotlight().attemptsTo(
-                SelectProductFromQuickSearch.select(0),
+                SelectProductFromQuickSearch.select(1),
                 WaitUntil.the(ADD_TO_CART_BUTTON, isPresent())
         );
 

@@ -60,7 +60,7 @@ public class AddTwoDifferentProductsAndGoToCheckout {
     @And("he adds the first product to cart")
     public void actor_adda_the_first_product_to_cart(){
         theActorInTheSpotlight().attemptsTo(
-                Open.productPageByPosition(0),
+                Open.productPageByPosition(1),
                 AddProduct.toCart(),
                 Click.on(Alert.CLOSE_ALERT_BOX_BUTTON)
         );
@@ -76,7 +76,7 @@ public class AddTwoDifferentProductsAndGoToCheckout {
     @And("he adds another product to the cart and goes to checkout")
     public void actor_adds_another_product_to_cart_and_goes_to_checkout(){
         theActorInTheSpotlight().attemptsTo(
-                Open.productPageByPosition(7),
+                Open.productPageByPosition(9),
                 Click.on(ADD_TO_CART_BUTTON),
                 WaitUntil.the(Alert.ALERT_BOX, isPresent()),
                 Click.on(Alert.CLOSE_ALERT_BOX_BUTTON),
