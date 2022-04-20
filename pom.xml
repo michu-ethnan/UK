@@ -260,7 +260,7 @@
                         <version>${maven.failsafe-plugin.version}</version>
                         <configuration>
                             <includes>
-                              <!-- <include>**/CheckoutSuite*.java</include>
+                              <include>**/CheckoutSuite*.java</include>
                                    <include>**/OrderingTestSuite_1*.java</include>
                                       <include>**/OrderingTestSuite_2.java</include>
                                       <include>**/OrderingTestSuite_3.java</include>
@@ -270,13 +270,13 @@
                                  <include>**/FilteringTestSuite*.java</include>
                                 <include>**/LoggingInSuite*.java</include>-->
                                     <include>**/NavigatingWebsiteSuite_1*.java</include>
-                                <!--<include>**/NavigatingWebsiteSuite_2*.java</include>
+                              <include>**/NavigatingWebsiteSuite_2*.java</include>
                                    <include>**/SortingSuite*.java</include>
                              <include>**/UsingMnicartSuite_1*.java</include>
                           <include>**/UsingMinicartSuite_2*.java</include>
                           <include>**/UsingMyAccountSuite*.java</include>
                         <include>**/ProductPageSuite*.java</include>
-                           <include>**/OrderProductsFromCategories*.java</include>-->
+                           <include>**/OrderProductsFromCategories*.java</include>
 
                             </includes>
                             <parallel>suites</parallel>
