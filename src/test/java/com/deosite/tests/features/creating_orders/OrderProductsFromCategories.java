@@ -54,7 +54,7 @@ public class OrderProductsFromCategories {
 @When("she adds a product from category page")
     public void alex_adds_product_from_category_page(){
     theActorInTheSpotlight().attemptsTo(
-            Open.productPageByPosition(2),
+            Open.productPageByPosition(1),
             AddProduct.toCart(),
             Open.miniCart()
 
