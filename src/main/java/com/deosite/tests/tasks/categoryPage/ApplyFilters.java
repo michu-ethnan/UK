@@ -158,7 +158,7 @@ public class ApplyFilters implements Task {
                     WaitUntil.the(CategoryPage.PRICE_FILTER_INPUT, isPresent()).forNoMoreThan(50).seconds(),
                     Clear.field(CategoryPage.PRICE_FILTER_INPUT),
                     WaitUntil.the(CategoryPage.PRICE_FILTER_INPUT, isClickable()),
-                    SendKeys.of("10").into(CategoryPage.PRICE_FILTER_INPUT),
+                    SendKeys.of("0.2").into(CategoryPage.PRICE_FILTER_INPUT),
                     WaitUntil.the(CategoryPage.FILTER_BUTTON, isPresent()).forNoMoreThan(50).seconds(),
                     Click.on(SUBMIT_FILTER_BUTTON),
                     WaitUntil.the(SUBMIT_FILTER_BUTTON, isNotPresent()),

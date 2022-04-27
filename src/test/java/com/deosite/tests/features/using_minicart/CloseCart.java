@@ -38,7 +38,7 @@ public class CloseCart {
         theActorCalled(actor).wasAbleTo(
                 Setup.site(),
                 ClickCategory.byCategoryNumber(0),
-                Open.productPageByPosition(2),
+                Open.productPageByPosition(0),
                 //WaitUntil.the(CategoryPage.CATEGORY_HEADER, isNotPresent()),
                 AddProduct.toCart(),
                 Open.miniCart()

@@ -35,7 +35,7 @@ public class CategoryPage {
     public static Target INSPIRATION_LIST = Target.the("Inspirations list").locatedBy("//div[@class=\"css-u8jc59\"]//..//a");
     public static Target ALL_FILTERS_BUTTON = Target.the("All filters button").locatedBy("(//div[@data-test='filters-container-desktop']//button)[14]");
 
-    public static Target ALL_FILTERS_BUTTON_AFTER_APPLYING_FILTER = Target.the("All filters button").locatedBy("(//div[@data-test='filters-container-desktop']//button)[13]");
+    public static Target ALL_FILTERS_BUTTON_AFTER_APPLYING_FILTER = Target.the("All filters button").locatedBy("(//div[@data-test='filters-container-desktop']//button)[12]");
 
 
 
