@@ -43,8 +43,10 @@ com/deosite/tests/UsingMinicartSuite_1.class
 com/deosite/tests/features/navigating_website/SelectPage.class
 com/deosite/tests/features/filtering/ApplyRangeFilterRefreshAndGoToNextPage.class
 com/deosite/tests/features/login/LogInWithProductsInCart.class
+com/deosite/tests/features/filtering/ApplyFiltersAndRefresh.class
 com/deosite/tests/features/login/LogInAndGoToCheckout.class
 com/deosite/tests/features/using_minicart/AddItemsToCart.class
+com/deosite/tests/ApplyAllFiltersSuite.class
 com/deosite/tests/features/using_my_account/AddAddress.class
 com/deosite/tests/features/checkout/AddTwoDifferentProductsAndGoToCheckout.class
 com/deosite/tests/features/using_my_account/LogOut.class
